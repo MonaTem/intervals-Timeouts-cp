@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p id='changing'>I will be the changing element!</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <label for="change-A">First Transition</label>
+        <select class="form-control" name="change-A" id="change-A">
+        <option value="">-- Select a Change --</option>
+        <option value="color">Color</option>
+        <option value="background">Background</option>
+        <option value="font-style">Font Style</option>
+        <option value="font-weight">Font Weight</option>
+      </select>
+      </div>
+      <div class="col">
+        <label for="change-A">Second Transition</label>
+        <select class="form-control" name="change-B" id="change-B">
+        <option value="">-- Select a Change --</option>
+        <option value="color">Color</option>
+        <option value="background">Background</option>
+        <option value="font-style">Font Style</option>
+        <option value="font-weight">Font Weight</option>
+      </select>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col">
+        <button id='transition' class='btn btn-success'>Go!</button>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col">
+        <p id='error'></p>
+      </div>
+    </div>
+  </div>
+
+<script src='./script.js'>
+
+</script>
+</body>
+
+</html>
